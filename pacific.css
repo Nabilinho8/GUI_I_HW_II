@@ -1,0 +1,97 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+	background-image: url(ptrbackground.jpg);
+	font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper{
+    width: 80%;
+    min-width: 600px;
+    vertical-align: center;
+    margin-top: 20px
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #90C8E3;
+}
+nav ul {
+    width: fixed;
+	font-size: 1.2em;
+    float: left;
+    list-style-type: none;
+    a{
+        text-decoration: none;
+        color: #000329;
+        font-weight: bold;
+    }
+    a:visited {
+        color: #000329;
+    }
+    a:hover {
+        color: white;
+    }
+}
+
+/* got code from TA nuno for the next two sections */
+#content img {
+  float: left;
+  padding-right: 25px;
+}
+#content {
+  background-color: white;
+  margin-left: 215px;
+  padding: 10px 25px 25px 30px;
+  color: gray;
+}
+#content ul {
+    padding-left: 30px;
+    list-style: inside;
+    list-style-image: url(marker.gif);
+}
+
+.resort {
+    font-weight: bold;
+    color: #637F94;
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+nav > img{
+    display:inline;
+}
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+    background-color: #000032;
+    background-image: url(sunset.jpg);
+    background-position-x: 600px;
+    background-repeat: no-repeat;
+    color: white;
+}
+h2 {
+	color: #3399CC;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+#contact {
+	font-size: 90%;
+}
+dt {
+	color: #000033;
+}
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+    margin-left: 215px;
+    background-color: white;
+    font-style: italic;
+    padding: 0px 0px 20px 20px;
+    font-size: 75%;
+    color: gray;
+}
+
